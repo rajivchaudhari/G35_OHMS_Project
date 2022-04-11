@@ -1,0 +1,617 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/*Logout table css start*/
+.Logout{
+  margin-left: 1100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.backbtn{
+  margin-left: 20px;
+}
+/*Logout table css end*/
+/* Homepage Login button */
+.LoginBtn{
+  margin-top: 10px;
+  margin-left: 1100px;
+}
+
+.imgheight{
+  height: 50px;
+  width: 100%;
+}
+.Mmargin{
+  min-height: 100vh-65px;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+}
+.header{
+  height: 70px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: cadetblue;
+}
+.headmargin{
+  margin-top: 70px;
+ 
+}
+.homepage-margin{
+  margin-top: 70px;
+  height: 90vh;
+}
+/* Homepage hospital name above branches */
+.HospName {
+  padding-left: 10px;
+  margin-right: 50px;
+  background-color : dodgerblue;
+  color: white;
+}
+.LoginPage{
+  margin-left: 10000px;
+  margin-right: 200px;
+}
+.DisWall{
+    background: url('MyComponents/Images/homepage4.jpeg');
+    width: 100%;
+    background-size: cover;
+    
+}
+.HomeWall {
+  background: url('MyComponents/Images/homepage4.jpeg');
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+
+.lgradient{
+  background-image: linear-gradient(  #7bd5f5 , #c4e0e5);
+  
+}
+.Logowall{
+  background: url('MyComponents/Images/websitelogo.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.Moto{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 300px;
+  background-color: burlywood;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 3px 0px 3px chocolate;
+  font-style: italic;
+}
+.Fspace{
+  margin-left: 30px;
+}
+
+.Center{
+  margin: auto;
+  width: 400px;
+  padding: 10px;
+}
+.Centerinside{
+  margin:auto;
+  background-color: whitesmoke;
+  /* border-radius: 20px; */
+  background-color: darkseagreen;
+  padding:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 black;
+}
+
+.PlaceEmail{
+  padding-left: 78px;
+}
+.Rname{
+  padding-left: 76px;
+}
+.Raddress{
+padding-left: 55px;
+}
+.Rphone{
+  padding-left: 40px;
+}
+.Lsignupbtn{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.PlacePassword{
+  padding-left:50px;
+}
+.Circular{
+  border-radius: 100px  100px 100px 100px;
+  border-color: darkslateblue;
+}
+.PlaceSubmit{
+  padding-left: 150px;
+}
+.PlaceLogin{
+  padding-left: 80px;
+}
+.abcd{
+  color: brown ;
+}
+.App-link {
+  color: blueviolet;
+}
+.HeaderBG{
+  background-color: cadetblue;
+}
+.PlaceContent{
+  padding-left: 20px;
+}
+.PlaceBtn{
+  background-color: dodgerblue;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+.Rgender{
+margin-left: 10px;
+}
+.Rgenderdiv{
+  margin-left: 60px;
+}
+.Frame{
+  padding-left: 50px;
+}
+.Sloginmargin{
+  padding-left: 70px;
+}
+.form{
+  padding-left: 15px;
+}
+.Logoutbtn{
+padding-right: 50px;
+}
+
+.aaimg{
+  border: 1;
+  border-width: 1px;
+  border: black;
+  height: 250px;
+  width: 100px;
+  border: 10px outset;
+  padding-left: 50px;
+}
+
+/*disclaimer page css start*/
+.img-styl{
+  display: flex table-column;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.text-styl{
+  margin-top: 20px;
+  padding-top: 5px;
+  margin-left: 10px;
+  padding-left: 1px;
+  text-align: center;
+}
+.flex-1{
+  display: flex;
+}
+.flex-2{
+  display: flex;
+ padding-left: 100px;
+}
+
+.heading{
+  text-align: center;
+}
+.border{
+  border: 1;
+  margin: 50px;
+}
+
+.facility-div-size{
+  margin-left: 200px;
+  padding:50px ;
+}
+.disimg{
+  padding-left: 30px;
+  padding-right: 30px;
+  
+  
+}
+/*disclaimer page css end*/
+
+/*About us page css start*/
+.img-style{
+  margin-top: 70px;
+  text-align: center;
+  padding: 50px;
+}
+.about-margin{
+  height: 120vh;
+}
+.heading-styl{
+  text-align: center;
+}
+.p-style{
+  margin-top: 50px;
+  font-size: medium;
+  text-align: center;
+  padding: 10px;
+}
+.width{
+  width: 18rem;
+}
+
+.img-logo-size{
+  height: 50px;
+  width: 50px;
+  align-self: center;
+}
+.Aboutpad{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.visionpad{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.newhr {
+  border: 2px solid #282c34;
+}
+.bgradient{
+  
+  background-image: linear-gradient(  rgb(91, 137, 255), #beffc4);
+  
+}
+
+
+/*About us page css end*/
+/* Patient page css start */
+.T1{
+  height: 300px;
+  width: 90%;
+  border-style: hidden;
+  border-width: 10px;
+  margin-left: 100px;
+}
+.PWall{
+  background: url('MyComponents/Images/homepage5.jpg');
+  /* height: 100vh;
+  background-position-x: left;
+  background-position-y: center; */
+  width: 100%;
+  background-size: cover;
+  position: fixed;
+}
+
+.pbtn{
+  padding-inline: 30px;
+}
+/*Patient add appointment css */
+.aamrgn{
+  margin-left: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.aasymp{
+  padding-left: 50px;
+}
+.dropcss{
+  background-color: burlywood;
+}
+.docmrg{
+  padding-left: 30px;
+  padding-right:0;
+  margin-left: 80px;
+}
+.timemrg{
+  padding-left: 30px;
+  padding-right:30px;
+  margin-left: 65px;
+}
+/*Patient view appointment*/
+.loginWall{
+  background: url('MyComponents/Images/hmepage3.jpg');
+  height: 100vh;
+  background-position-x: left;
+  background-position-y: center;
+  width: 100%;
+  background-size: cover;
+}
+
+/* Patient page css end */
+
+
+/*Receptionist page css start*/
+.rbtn{
+  width: 200px;
+}
+.rimg{
+  padding-left: 25px;
+}
+
+.display-main{
+  margin-top: 100px;
+ 
+}
+/* RecepHomePage css */
+.card-img-size{
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+/* View Appoinment  css*/
+.search-box-size{
+height: 40px;
+width: 250px;
+}
+
+.search-form-margin{
+margin-left: 980px;
+}
+.searchbg{
+  background-color: #6ef7a2;
+  color: black;
+}
+.apptmrg{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 80px;
+}
+.drmrg{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 100px;
+}
+
+/*Receptionist page css end*/
+/*Admin page css start*/
+.aimg{
+  padding-left: 35px;
+}
+.abtn{
+  width: 220px;
+}
+/*Admin page css end*/
+/*Staff Login pages start*/
+
+.shead{
+margin-top: 70px;
+}
+.date{
+  width: 180px;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+.Stitle{
+  padding-left: 50px;
+}
+.Sgradient{
+  background-image: linear-gradient(  #f1b4bc, rgb(114, 145, 224)  );
+}
+.passmrg{
+  padding-left: 47px;
+}
+.addmrg{
+  padding-left: 58px;
+}
+.rolemrg{
+  padding-left: 84px;
+}
+.Adiv{
+  padding: 10px;
+  height: 50px;
+  margin-left: 350px;
+  width: 50%;
+  background-color: #8e99f5;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #2fa1b3 , #5cdbf5);
+}
+
+.Stitle2{
+  padding-left: 100px;
+}
+.splmrg{
+  padding-left: 42px;
+}
+/*Staff Login pages end*/
+/*Forgot password css start*/
+.fgtpass{
+  margin: auto;
+  width: 500px;
+  padding: 10px;
+}
+.fpbtn1{
+  padding-left: 30px;
+  margin-left: 140px;
+}
+.fpbtn2{
+padding-left: 90px ;
+}
+.fpbtn3{
+  padding-left: 65px;
+}
+.fplogin{
+  margin-left: 120px;
+}
+/*Forgot password css end*/
+/* Invoice css start */
+.margin-1{
+  margin-left: 300px;
+}
+
+.invoice-border{
+  border: 4px solid black;
+}
+
+.invoice-image-1{
+   height: 100px;
+   width: 100px;
+}
+
+.invoice-image-2{
+  margin-left: 250px;
+   height: 100px;
+   width: 100px;
+}
+
+.invoice-patient{
+margin: 20px;
+    /*  background-color: #fff;
+    background-clip: border-box; 
+    border: 1px solid rgba(247, 245, 245, 0.125);
+    border-radius: .25rem; */
+    width: 500px;
+}
+.margin-2{
+margin-left: 800px;
+}
+.p-boundry{
+  margin: 4px;
+  padding-right: 25px;
+}
+
+.charges-margin{
+margin-left: 20px;
+}
+.i-hospname-margin{
+  margin-top: 10px;
+  margin-left: 700px;
+}
+.invoice-body-margin{
+  margin-top: 70px;
+  height: 150vh;
+}
+.invoice-wall{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4rPHPSrwoJnB-Jg137WbFb1qCm-mMAeteuw&usqp=CAU');
+  width: fit-content;
+  /* background: #c4e0e5; */
+  background-size: cover; 
+  position: inherit;
+}
+/* Invoice css End */
+.inWall{
+  background: url('MyComponents/Images/viewpage.jpg');
+   /* height: 120vh;
+ background-position-x: left;
+  background-position-y: center; */
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  /* height: 100%; */
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.invcenter{
+   margin: auto;
+    width: 430px;
+    padding: 10px;
+}
+.lab{
+  padding-left: 104px;
+}
+.dfee{
+  padding-left: 85px;
+}
+.ofee{
+  padding-left: 90px;
+}
+.gst{
+  padding-left: 120px;
+}
+.dis{
+  padding-left: 70px;
+}
+.da{
+  margin-left: 130px;
+}
+/* ----------------------------------------------------------------------- */
+/*  Fonts css start here    */
+
+/* Homepage */
+.helpline{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.branch{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutusinfo{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Patient Login*/
+.title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 3px 0px 3px cadetblue;
+}
+.intitle{
+  font-family: 'Times New Roman', Times, serif;
+}
+.view-margin{
+  margin-top: 70px;
+height: 100vh;
+}
+.view-table-margin{
+  margin-top: 70px;
+height: 150vh;
+}
+.view-table2-margin{
+  margin-top: 70px;
+height: 200vh;
+}
+.view-appoint-margin{
+  margin-top: 70px;
+height: 100vh;
+position: initial;
+}
+.invoice-title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  height: 50px;
+  margin-left: 350px;
+  width: 50%;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #2fa1b3 , #5cdbf5);
+}
